@@ -25,7 +25,7 @@ $(() => {
         const promise = auth.signInAnonymously();
         promise
             .then(user =>{
-                console.log(user.uid)
+                console.log(user.uid);
             })
             .catch(err => {
                 console.log(err)
